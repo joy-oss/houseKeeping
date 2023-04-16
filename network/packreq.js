@@ -1,0 +1,10 @@
+import req from './req.js'
+export const $fetch_reg=data=>req('/api/register','post',data)
+export const $fetch_login=data=>req('/api/login','post',data)
+export const $fetch_wklist=data=>req('/api/workUserList','post',data)
+export const $fetch_userinfo=data=>req('/api/userAllInfo','post',data)
+export const $fetch_addwork=data=>req('/api/addWork','post',data)
+export const $fetch_addtask=data=>req('/api/addTask','post',data)
+export const $fetch_worklist=data=>req('/api/workList','post',data)
+export const $fetch_tasklist=data=>req('/api/TaskList','post',data)
+export const $fetch_canceltask=data=>req('/api/cancelTask','post',data)

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/release/release",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/detil/detil",
+    "pages/mask/mask",
+    "pages/rolechange/rolechange"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tbaricon/tj.png",
+        "selectedIconPath": "static/tbaricon/tja.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "iconPath": "static/tbaricon/xj.png",
+        "selectedIconPath": "static/tbaricon/xja.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/tbaricon/dd.png",
+        "selectedIconPath": "static/tbaricon/dda.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tbaricon/wd.png",
+        "selectedIconPath": "static/tbaricon/wda.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

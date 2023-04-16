@@ -1,0 +1,114 @@
+{
+	"easycom": {
+				"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+			},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "服务员查询",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}
+	    ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的约看",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/release/release",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "找服务",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},	    
+		{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录/注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我",
+				"navigationBarBackgroundColor": "#13B72D",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detil/detil",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务员推荐",
+                "enablePullDownRefresh": false
+            }
+            
+        }      
+		  ,{
+            "path" : "pages/mask/mask",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的需求",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/rolechange/rolechange",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "角色切换",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tbaricon/tj.png",
+				"selectedIconPath": "static/tbaricon/tja.png",
+				"text": "推荐"
+			},
+			{
+				"pagePath": "pages/release/release",
+				"iconPath": "static/tbaricon/xj.png",
+				"selectedIconPath": "static/tbaricon/xja.png",
+				//"text": "热点"
+				"text":"发布"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/tbaricon/dd.png",
+				"selectedIconPath": "static/tbaricon/dda.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tbaricon/wd.png",
+				"selectedIconPath": "static/tbaricon/wda.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
